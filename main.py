@@ -7,6 +7,7 @@ def main():
 
     ingredients = input("Enter ingredients you have, separated by commas: ").split(',')
 
+    # Validate user input
     if mode == "mock":
         recipe = generate_mock_recipe(ingredients)
     elif mode == "ai":

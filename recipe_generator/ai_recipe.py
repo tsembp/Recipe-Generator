@@ -1,12 +1,12 @@
 import openai
 
-# Set your API key
+# Set API key
 openai.api_key = "api-key-here"
 
 def generate_ai_recipe(ingredients):
+    # Prompt to AI model
     prompt = f"Suggest a recipe using these ingredients: {', '.join(ingredients)}."
     try:
-        # Use the new API structure
         response = openai.Completion.create(
             model="gpt-3.5-turbo",
             prompt=prompt,
