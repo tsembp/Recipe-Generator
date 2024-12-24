@@ -1,4 +1,4 @@
-# 👨‍🍳 Recipe Generator
+# 👨‍🍳 Recipe Generator [under construction]
 
 A Python-based Recipe Generator that suggests recipes based on the ingredients you have. The project uses OpenAI's GPT model for AI-based recipe generation and a mock recipe generator for a simpler approach.
 
