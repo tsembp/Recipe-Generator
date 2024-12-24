@@ -1,0 +1,5 @@
+{
+    "pasta": ["pasta", "tomato sauce", "cheese"],
+    "salad": ["lettuce", "tomatoes", "cucumber", "olive oil"],
+    "sandwich": ["bread", "cheese", "ham", "lettuce"]
+}
